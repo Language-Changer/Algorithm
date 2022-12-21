@@ -4,11 +4,12 @@
 #include<string>
 using namespace std;
 
+//nn:几层。
+//cnt:进行几次操作。
 long long nn,cnt;
 
 void dfs(int n,string a,string b,string c)
 {
-    //cnt++;
     if(n == 1)
     {
         //cnt++;
