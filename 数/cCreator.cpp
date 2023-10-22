@@ -15,6 +15,7 @@ signed main()
     for(int i=1;i <= num;i++)
     {
         outfile << rand() % (MAX_VALUE + 1) << ' ';
+        if(i%(num/10) == 0) std::cout << i/(num/10) << "0%" << std::endl;
     }
     outfile.close();
     return 0;
