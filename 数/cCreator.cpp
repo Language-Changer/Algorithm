@@ -10,7 +10,7 @@ signed main()
     std::cin >> num >> MAX_VALUE;
     srand(time(0));
     std::ofstream outfile;
-    outfile.open("sort.in");
+    outfile.open("number.out");
     outfile << num << std::endl;
     for(int i=1;i <= num;i++)
     {
